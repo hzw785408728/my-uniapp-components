@@ -1,0 +1,33 @@
+# 通用配置
+.DS_Store
+Thumbs.db
+*.log
+
+# 编译构建相关
+dist/
+unpackage/
+
+# 依赖与缓存
+node_modules/
+.cache/
+
+# 本地配置文件
+.env.local
+.env.development.local
+.env.production.local
+
+# IDE 相关
+.vscode/
+.idea/
+*.iml
+
+# 移动开发相关
+.android/
+.ios/
+
+# hbuliderx 相关
+.hbuilderx/
+*.sublime-workspace
+
+# yarn 相关
+yarn-error.log
